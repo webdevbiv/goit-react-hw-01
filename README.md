@@ -1,12 +1,15 @@
-# React + Vite
+# React Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple demonstration of reusable React components that render a user profile, a friend list, and a transaction history. Each component is styled using CSS Modules to ensure clean, modular, and maintainable code.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Profile Component:** Displays user details such as avatar, name, tag, location, and stats.
+- **FriendList Component:** Renders a list of friends with their avatars, names, and online statuses.
+- **TransactionHistory Component:** Presents a table of transaction records with styled headers and alternating row colors.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- CSS Modules
+- JavaScript (ES6+)
